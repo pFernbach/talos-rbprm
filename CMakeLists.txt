@@ -20,13 +20,14 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 
 SET(CXX_DISABLE_WERROR true)
 
-INCLUDE(cmake/base.cmake)
-INCLUDE(cmake/idl.cmake)
-INCLUDE(cmake/python.cmake)
-
 SET(PROJECT_NAME talos-rbprm)
 SET(PROJECT_DESCRIPTION "Database for talos robot using hpp-rbprm")
 SET(PROJECT_URL "")
+
+
+INCLUDE(cmake/base.cmake)
+INCLUDE(cmake/idl.cmake)
+INCLUDE(cmake/python.cmake)
 
 SET(CUSTOM_HEADER_DIR "hpp/talos-rbprm")
 
