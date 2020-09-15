@@ -39,7 +39,7 @@ class Robot(Parent):
     referenceConfig = [
         0.0,
         0.0,
-        1.0225,
+        1.01977,
         0.0,
         0.0,
         0.0,
@@ -81,7 +81,11 @@ class Robot(Parent):
     referenceConfig_elbowsUp = [
         0.0,
         0.0,
+<<<<<<< cba7912482150ad26b98838e76e365360853dd49
         1.0225,
+=======
+        1.01977,
+>>>>>>> Reduce root Height in reference config
         0.0,
         0.0,
         0.0,
@@ -123,7 +127,11 @@ class Robot(Parent):
     referenceConfig_legsApart = [
         0.0,
         0.0,
+<<<<<<< cba7912482150ad26b98838e76e365360853dd49
         1.0225,
+=======
+        1.01977,
+>>>>>>> Reduce root Height in reference config
         0.0,
         0.0,
         0.0,
@@ -165,7 +173,11 @@ class Robot(Parent):
     referenceConfig_armsFront = [
         0.0,
         0.0,
+<<<<<<< cba7912482150ad26b98838e76e365360853dd49
         1.0225,
+=======
+        1.01977,
+>>>>>>> Reduce root Height in reference config
         0,
         0.0,
         0.0,
